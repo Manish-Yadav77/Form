@@ -17,6 +17,7 @@
     padding-left: 0.5%;
     margin: 50px;
     display: flex;
+    border: 3px solid black;
     flex-direction: column;
     justify-content: left;
     background-color: aqua;
@@ -33,6 +34,10 @@ textarea{
 .form-group{
     font-size: medium;
 }
+.form-groups{
+    font: bold;
+    font-size: large;
+}
 h2
 {
     justify-content: left;
@@ -45,14 +50,15 @@ h2
     box-shadow: 2x 20px black;
     background-color: aqua;
     padding: 5px;
-    margin: 10px;
+    margin: 0px;
 }
 .btn :hover{
-    font-size: medium;
-    color: aquamarine;
-    background-color: red;
-    cursor: pointer;
+    color: rgb(61, 21, 193);
+    cursor: pointer; 
 }
-.btnsubmit,.btnreset{
-    font-size: 20px;
+.btnsubmit ,.btnreset{
+    font: bold;
+    tab-size: 500px;
+    margin-top: 10px;
+    font-size:larger;
 }
