@@ -28,7 +28,7 @@ function submit()
             alert("please enter all details")
         }
         else{
-            localStorage.setItem("Details : ", obj.name+" " +obj.email+" "+obj.msg)
+            localStorage.setItem("Details : ", obj.name+" \n" +obj.email+" \n"+obj.msg)
             console.log(obj)
             name.value=""
             email.value=""
